@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JaCoCoLes" />
+        <module name="javaqamvn" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JaCoCoLes" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
